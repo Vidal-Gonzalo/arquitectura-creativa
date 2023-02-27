@@ -1,0 +1,57 @@
+#projects {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--global-primary-color);
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects-container > .projects-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container > .projects-title > h3 {
+  font-size: 3rem;
+  color: var(--global-tertiary-color);
+}
+
+.projects-container > .projects-title > h3 > span {
+  color: var(--global-secondary-color);
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  width: 70%;
+  height: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+.project-card > .parallax {
+  width: 100%;
+  height: 100%;
+}
+
+.project-card > img {
+  width: 90%;
+  height: 70%;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 500ms;
+}
+.project-card > img:hover {
+  transform: scale(1.1, 1.1);
+}

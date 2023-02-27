@@ -1,0 +1,47 @@
+.presentation {
+  height: 100svh;
+  overflow: hidden;
+  background-color: var(--global-primary-color);
+}
+
+.presentation-text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.presentation-text > h1,
+.presentation-text > span {
+  font-size: 4.5rem;
+  width: 10%;
+  margin: 10% 10% 5% 15%;
+  padding: 0;
+  color: var(--global-tertiary-color);
+}
+
+.presentation-text > h1 > span {
+  color: var(--global-secondary-color);
+}
+
+.presentation-text > p {
+  width: 90%;
+  font-size: 1.5rem;
+  margin: 0 10% 0 15%;
+  font-family: var(--global-primary-font);
+  font-weight: 600;
+  color: var(--global-tertiary-color);
+}
+
+.presentation-image {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.presentation-image-grid {
+  position: relative;
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: var(--global-primary-font);
+}
+
+main {
+  background-color: var(--global-primary-color);
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: var(--global-primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--global-secondary-color);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--global-primary-color);
+}

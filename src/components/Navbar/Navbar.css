@@ -1,0 +1,47 @@
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo > h6 {
+  font-family: var(--global-primary-font);
+  font-weight: 600;
+}
+
+.sections {
+  font-weight: 600;
+}
+
+.sections-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.sections-list > li {
+  /* margin: 0 1rem 0 1rem; */
+  position: relative;
+}
+
+.sections-list > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--global-secondary-color);
+  border-radius: 4px;
+  scale: 0;
+  transform-origin: left;
+  transition: scale 0.4s;
+}
+
+.sections-list > li:hover::before {
+  scale: 1;
+}
+
+.sections-list > li > a {
+  text-decoration: none;
+  color: var(--global-tertiary-color);
+}
